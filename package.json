@@ -1,0 +1,12 @@
+{
+  "name": "weworkproxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:stillyu/weworkproxy.git",
+  "author": "喻小伟 <still.vv@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-http-proxy": "^2.0.0"
+  }
+}
