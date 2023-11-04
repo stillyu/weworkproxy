@@ -4,8 +4,8 @@ const proxy = require('express-http-proxy');
 const app = express()
 const port = 9000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+app.get('/health', (req, res) => {
+  res.send('ok!')
 })
 
 app.use('/', proxy('https://qyapi.weixin.qq.com'));
